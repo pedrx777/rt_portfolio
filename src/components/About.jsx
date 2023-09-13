@@ -1,27 +1,35 @@
 const About = () => {
   return (
-    <div>
-      <div>
-        <div>
-          <p>About</p>
+    <div
+      name="about"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+    >
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            About
+          </p>
         </div>
 
-        <p>
-          Recentemente fiz uma transição em minha carreira para o
-          desenvolvimento Frontend como Freelancer e tenho projetos meus tanto
-          concluídos como em andamento em meu GitHub. Minha especialidade inclui
-          React, HTML, CSS, JavaScript, Node e Tailwind CSS.
+        <p className="text-xl mt-20">
+          Meu nome é Pedro Gonçalves de Almeida, eu sou um desenvolvedor
+          frontend. Estudo programação há 3 anos e este ano dei início à minha
+          graduação em Análise e Desenvolvimento de Sistemas, com previsão de
+          conclusão em junho de 2025. Apresento orgulhosamente meu projeto de
+          portfólio, desenvolvido com as habilidades em React e Tailwind CSS que
+          venho aprimorando ao longo da minha trajetória.
         </p>
 
         <br />
 
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
-          officiis similique sed nihil necessitatibus soluta fugit sunt laborum
-          vel, unde voluptates eligendi nisi illo, assumenda dolorem atque esse
-          quis? Incidunt eveniet adipisci dolorum eligendi? Quidem rerum
-          cupiditate asperiores impedit maxime eligendi dignissimos, sit dolorem
-          dolor incidunt autem laudantium! Nemo, autem.
+        <p className="text-xl">
+          Sou um apaixonado por programação com 3 anos de experiência no campo.
+          Minhas principais tecnologias incluem React, HTML, CSS, JavaScript,
+          Node e Tailwind CSS. Tenho dedicado meu tempo ao aprimoramento de
+          minhas habilidades nessas áreas, criando projetos (como este)
+          criativos e funcionais. Estou constantemente em busca de desafios que
+          me permitam expandir meu conhecimento e contribuir para soluções
+          inovadoras no mundo da programação.
         </p>
       </div>
     </div>
