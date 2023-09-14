@@ -7,11 +7,11 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "inicial",
     },
     {
       id: 2,
-      link: "about",
+      link: "sobre",
     },
     {
       id: 3,
@@ -19,11 +19,11 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: "experience",
+      link: "experiência",
     },
     {
       id: 5,
-      link: "contact",
+      link: "contato",
     },
   ];
 
