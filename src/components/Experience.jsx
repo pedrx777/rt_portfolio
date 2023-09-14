@@ -6,6 +6,7 @@ import nextjs from '../assets/nextjs.png'
 import node from '../assets/node.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
+import ts from '../assets/typescript-256.png'
 
 const Experience = () => {
     const techs = [
@@ -57,9 +58,15 @@ const Experience = () => {
             title: 'GitHub',
             style: 'shadow-gray-400',
         },
+        {
+            id: 9,
+            src: ts,
+            title: 'TypeScript',
+            style: 'shadow-sky-500',
+        },
     ]
 
-    return <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+    return <div name="experiência" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
 
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div>
