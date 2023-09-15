@@ -1,9 +1,13 @@
-# React + Vite
+[Portfolio App](https://portfolio-pedrx777.vercel.app)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[README In English](./README-en.md) 🇺🇸
 
-Currently, two official plugins are available:
+# 🛒 Portfolio com React e Tailwind CSS 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# rt_portfolio
+Este é um projeto de Portfolio desenvolvido com React e Tailwind CSS.
+
+## 🚀 Tecnologias utilizadas
+
+- **React**: biblioteca JavaScript de código aberto para criar interfaces de usuário interativas em aplicações web.
+- **HTML5**: linguagem de marcação para estruturar o conteúdo da aplicação.
+- **Tailwind CSS**: framework CSS de utilitários altamente configurável para desenvolvimento web eficiente e rápido.

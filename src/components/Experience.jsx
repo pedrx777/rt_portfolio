@@ -4,7 +4,6 @@ import javascript from '../assets/javascript.png'
 import reactimg from '../assets/react.png'
 import nextjs from '../assets/nextjs.png'
 import node from '../assets/node.png'
-import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
 import ts from '../assets/typescript-256.png'
 
@@ -53,12 +52,6 @@ const Experience = () => {
             style: 'shadow-green-500',
         },
         {
-            id: 8,
-            src: github,
-            title: 'GitHub',
-            style: 'shadow-gray-400',
-        },
-        {
             id: 9,
             src: ts,
             title: 'TypeScript',
@@ -69,8 +62,8 @@ const Experience = () => {
     return <div name="experiência" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
 
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-            <div>
-                <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
+            <div className='mt-20'>
+                <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experiência</p>
                 <p className='py-6'>Tecnologias na qual minha especialidade inclui</p>
             </div>
 

@@ -5,14 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      screens: {
-        'sm': '639px',
-        'md': '767px',
-        'lg': '1023px',
-        'xl': '1279px',
-      }
-    },
+    extend: {},
     fontFamily: {
       signature: ["Great Vibes"],
     },
